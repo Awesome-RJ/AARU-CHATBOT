@@ -72,7 +72,6 @@ async def start(client, message):
  (
         filters.text
         | filters.sticker
-        | filters.gif
     )
     & ~filters.private
     & ~filters.me
@@ -139,7 +138,6 @@ async def alexaai(client: Client, message: Message):
  (
         filters.sticker
         | filters.text
-        | filters.gif
     )
     & ~filters.private
     & ~filters.me
@@ -208,7 +206,6 @@ async def alexastickerai(client: Client, message: Message):
     (
         filters.text
         | filters.sticker
-        | filters.gif
     )
     & filters.private
     & ~filters.me
@@ -252,7 +249,6 @@ async def alexaprivate(client: Client, message: Message):
  (
         filters.sticker
         | filters.text
-        | filters.gif
     )
     & filters.private
     & ~filters.me
