@@ -44,18 +44,18 @@ async def chatbot(client, message):
         photo=f"https://telegra.ph/file/392eaa151f8ff81833597.mp4",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━
 💥 A ᴘᴏᴡᴇʀғᴜʟ ᴀɪ ʙᴏᴛ
-ᴏғ ♻️ Mr Aarav kumawat 🔥
+ᴏғ ♻️ 𝐌𝐫 𝐂𝐎𝐃𝐄𝐑 𝐱𝐃 🔥
 ━━━━━━━━━━━━━━━━━
 ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ʙᴏᴛ ғᴏʀ ᴛɢ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴇʀ [ᴄᴏᴅᴇʀ](https://t.me/ItsCODER_XD)
-┣★ ᴍɪss ᴀᴀʀᴜ [ᴍɪss ᴀᴀʀᴜ️](https://t.me/AARAV_X_AARU)
-┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/AARU_UPDATES)
-┣★ ᴀᴀʀᴀᴠ [ᴀᴀʀᴀᴠ](https://t.me/its_Aarav_xD)
-┣★ ɴᴇᴛᴡᴏʀᴋ [ᴀᴀʀᴜ](https://t.me/AARU_UPDATES)
+┣★ ᴄʀᴇᴀᴛᴇʀ [ᴄᴏᴅᴇʀ](https://t.me/its_Codee_xD)
+┣★ ᴍɪss ᴀᴀʀᴜ [ᴍɪss ᴀᴀʀᴜ️](https://t.me/MisS_AaRu_xD)
+┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/MISS_AARU_BOTS)
+┣★ ᴀᴀʀᴀᴠ [ᴀᴀʀᴀᴠ](https://t.me/its_Coder_xD)
+┣★ ɴᴇᴛᴡᴏʀᴋ [ᴀᴀʀᴜ](https://t.me/MISS_AARU_BOTS)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 
-IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @its_Aarav_xD """,
+IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @its_Coder_xD """,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🌼 ʟᴏᴠᴇ X ʙɪʀᴅs 💮", url=f"https://t.me/LOVE_X_BIRDS")]]
         ),
