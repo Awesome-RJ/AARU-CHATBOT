@@ -48,16 +48,16 @@ async def chatbot(client, message):
 ━━━━━━━━━━━━━━━━━
 ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ʙᴏᴛ ғᴏʀ ᴛɢ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴇʀ [ᴄᴏᴅᴇʀ](https://t.me/its_Codee_xD)
-┣★ ᴍɪss ᴀᴀʀᴜ [ᴍɪss ᴀᴀʀᴜ️](https://t.me/MisS_AaRu_xD)
-┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/MISS_AARU_BOTS)
+┣★ ᴄʀᴇᴀᴛᴇʀ [ᴄᴏᴅᴇʀ](https://t.me/its_Coder_xD)
+┣★ ᴍɪss ᴀᴀʀᴜ [ᴍɪss ᴀᴀʀᴜ️](https://t.me/AARU_NETWORK)
+┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/H4RDIN_SUPPORT)
 ┣★ ᴀᴀʀᴀᴠ [ᴀᴀʀᴀᴠ](https://t.me/its_Coder_xD)
-┣★ ɴᴇᴛᴡᴏʀᴋ [ᴀᴀʀᴜ](https://t.me/MISS_AARU_BOTS)
+┣★ ɴᴇᴛᴡᴏʀᴋ [ᴀᴀʀᴜ](https://t.me/AARU_NETWORK)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 
 IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @its_Coder_xD """,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 ʟᴏᴠᴇ X ʙɪʀᴅs 💮", url=f"https://t.me/LOVE_X_BIRDS")]]
+            [[InlineKeyboardButton("🌼 ʟᴏᴠᴇ X ʙɪʀᴅs 💮", url=f"https://t.me/H4RDIN_SUPPORT")]]
         ),
     ) 
 
