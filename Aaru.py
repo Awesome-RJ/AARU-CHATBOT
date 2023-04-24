@@ -49,15 +49,15 @@ async def chatbot(client, message):
 ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ʙᴏᴛ ғᴏʀ ᴛɢ...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴇʀ [ᴄᴏᴅᴇʀ](https://t.me/its_Coder_xD)
-┣★ ᴍɪss ᴀᴀʀᴜ [ᴍɪss ᴀᴀʀᴜ️](https://t.me/AARU_NETWORK)
-┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/H4RDIN_SUPPORT)
+┣★ ᴍɪss ᴀᴀʀᴜ [ᴍɪss ᴀᴀʀᴜ️](https://t.me/ArchBots)
+┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/ARCH_SUPPORTS)
 ┣★ ᴀᴀʀᴀᴠ [ᴀᴀʀᴀᴠ](https://t.me/its_Coder_xD)
-┣★ ɴᴇᴛᴡᴏʀᴋ [ᴀᴀʀᴜ](https://t.me/AARU_NETWORK)
+┣★ ɴᴇᴛᴡᴏʀᴋ [ᴀᴀʀᴜ](https://t.me/ArchBots)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 
 IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @its_Coder_xD """,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 ʟᴏᴠᴇ X ʙɪʀᴅs 💮", url=f"https://t.me/H4RDIN_SUPPORT")]]
+            [[InlineKeyboardButton("🌼 ARCH 💮", url=f"https://t.me/ARCH_SUPPORTS")]]
         ),
     ) 
 
