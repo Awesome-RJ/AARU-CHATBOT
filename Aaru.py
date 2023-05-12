@@ -31,7 +31,7 @@ client = Client(SESSION_NAME, API_ID, API_HASH)
     & ~filters.private)
 async def chatbot(client, message):
     await message.delete()
-    alexaai = await message.reply("🤭🤏✌️")
+    await message.reply("🤭🤏✌️")
     await asyncio.sleep(1)
     await alexaai.edit("**ᴀᴀʀᴀᴠ ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴍᴇʀɪ ᴊᴀᴀɴ**")
     await asyncio.sleep(1)
