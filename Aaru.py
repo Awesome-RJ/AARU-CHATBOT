@@ -1,5 +1,3 @@
-# ©  - CODER XD () And Alexa Team For Modification
-# Give Credit AARAV🔥💥🌹
 
 from pyrogram import Client, filters
 import asyncio
@@ -26,49 +24,6 @@ MONGO_URL = os.environ.get("MONGO_URL", "")
 client = Client(SESSION_NAME, API_ID, API_HASH)
 
 
-@client.on_message(
-    filters.command("owner", prefixes=[".", "/"])
-    & ~filters.private)
-async def chatbot(client, message):
-    await message.delete()
-    await message.reply("🤭🤏✌️")
-    await asyncio.sleep(1)
-    await alexaai.edit("**ᴀᴀʀᴀᴠ ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴍᴇʀɪ ᴊᴀᴀɴ**")
-    await asyncio.sleep(1)
-    await alexaai.edit("**ɪ ᴀᴍ ᴅᴏɪɴɢ ᴍʏ ʟᴏᴠᴇ 💕**")
-    await alexaai.delete()
-    await asyncio.sleep(2)
-    umm = await message.reply_sticker("CAACAgUAAxkBAAIFy2NHxQOoBNVY41aNJ7dgaBhdbVCPAAIHBgAC4oeRVpcBxaSY72TrKgQ")
-    await asyncio.sleep(2)
-    await message.reply_photo(
-        photo=f"https://te.legra.ph/file/65b994bb2053b9ee12fd1.jpg",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━
-💥 A ᴘᴏᴡᴇʀғᴜʟ ᴀɪ ʙᴏᴛ
-ᴏғ ♻️ 𝐌𝐫 𝐂𝐎𝐃𝐄𝐑 𝐱𝐃 🔥
-━━━━━━━━━━━━━━━━━
-ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ʙᴏᴛ ғᴏʀ ᴛɢ...
-┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴇʀ [ᴄᴏᴅᴇʀ](https://t.me/its_Coder_xD)
-┣★ ᴍɪss ᴀᴀʀᴜ [ᴍɪss ᴀᴀʀᴜ️](https://t.me/ArchBots)
-┣★ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/ARCH_SUPPORTS)
-┣★ ᴀᴀʀᴀᴠ [ᴀᴀʀᴀᴠ](https://t.me/its_Coder_xD)
-┣★ ɴᴇᴛᴡᴏʀᴋ [ᴀᴀʀᴜ](https://t.me/ArchBots)
-┗━━━━━━━━━━━━━━━━━┛
-💞 
-IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @its_Coder_xD """,
-        reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 ARCH 💮", url=f"https://t.me/ARCH_SUPPORTS")]]
-        ),
-    ) 
-
-
-@client.on_message(
-    filters.command("aaru", prefixes=[".", "/"])
-    & ~filters.private)
-async def start(client, message):
-    await message.reply_text(f"**ᴀᴀʀᴜ ᴜsᴇʀʙᴏᴛ ғᴏʀ ᴄʜᴀᴛᴛɪɴɢ ɪs ᴡᴏʀᴋɪɴɢ**")
-    
-    
 @client.on_message(
  (
         filters.text
