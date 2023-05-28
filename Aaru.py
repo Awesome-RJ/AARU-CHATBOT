@@ -12,6 +12,7 @@ from pyrogram.errors import (
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 import os
+import uvloop
 import re
 
 uvloop.install()
