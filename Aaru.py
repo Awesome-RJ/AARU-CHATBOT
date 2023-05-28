@@ -14,6 +14,7 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 import os
 import re
 
+uvloop.install()
 
 API_ID = os.environ.get("API_ID", "") 
 API_HASH = os.environ.get("API_HASH", "") 
