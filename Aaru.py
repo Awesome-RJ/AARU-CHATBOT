@@ -23,6 +23,11 @@ MONGO_URL = os.environ.get("MONGO_URL", "")
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
 
+@client.on_message(
+    filters.command("naughty", prefixes=["/", ".", "?", "-"])
+    & ~filters.private)
+async def start(client, message):
+    await message.reply_text(f"**Rajkumar's ᴀɪ ᴜsᴇʀʙᴏᴛ ғᴏʀ ᴄʜᴀᴛᴛɪɴɢ ɪs ᴡᴏʀᴋɪɴɢ**")
 
 @client.on_message(
  (
